@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person id="0">
+        <points x="52" y="273" position="TL"/>
+        <points x="167" y="388" position="BR"/>
+        <revealed>true</revealed>
+    </person>
+    <person id="1">
+        <points x="324" y="176" position="TL"/>
+        <points x="463" y="315" position="BR"/>
+        <revealed>true</revealed>
+    </person>
+    <person id="2">
+        <points x="616" y="234" position="TL"/>
+        <points x="728" y="346" position="BR"/>
+        <revealed>true</revealed>
+    </person>
+    <person id="3">
+        <points x="846" y="163" position="TL"/>
+        <points x="972" y="289" position="BR"/>
+        <revealed>true</revealed>
+    </person>
+    <person id="4">
+        <points x="1070" y="188" position="TL"/>
+        <points x="1199" y="317" position="BR"/>
+        <revealed>true</revealed>
+    </person>
+</persons>

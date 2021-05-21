@@ -1,0 +1,161 @@
+.root { 
+    -fx-accent: #3d0099;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #d9d9d9;
+    -fx-control-inner-background: derive(-fx-base,50%);
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 30%);
+}
+
+.image-view-wrapper:border {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 5;
+}
+
+.rectangle {
+	-fx-background-color: transparent;
+	-fx-background-insets: 0, 5;
+	-fx-min-width: 20;
+	-fx-min-height: 20;
+	-fx-max-width: 20;
+	-fx-max-height: 20;
+}
+
+/* ============================ MSG BOX ================================= */
+
+#upperText {
+	-fx-font-family: "IMPACT";
+	-fx-font-size: 28pt;
+    -fx-text-fill: #ffffff;
+}
+
+/* ============================= BUTTON ================================= */
+
+.button {
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%),
+        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#f5f5f5 0%, #dbdbdb 50%, #cacaca 51%, #d7d7d7 100%),
+        linear-gradient(#b9b9b9 0%, #c2c2c2 20%, #afafaf 80%, #c8c8c8 100%);
+    -fx-cursor: hand;
+}
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 );
+}
+
+/* ===================== TOGGLE BUTTON ================================= */
+
+.toggle-button {
+    -fx-background-color: 
+        linear-gradient(#ed2939 0%, #e62020 25%, #a91101 75%, #8b0000 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#8b0000 0%, #a91101 25%, #e62020 75%, #ed2939 100%),
+        linear-gradient(#ed2939 0%, #e62020 25%, #a91101 75%, #8b0000 100%);
+    -fx-border-color: linear-gradient(#020b02, #3a3a3a);
+    -fx-border-style: solid;
+    -fx-border-width: 5;
+    -fx-border-radius : 5;
+    -fx-background-radius: 9,8,5,4;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #cfcfcf;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.toggle-button:hover {
+    -fx-background-color: 
+        linear-gradient(#ed2939 0%, #e62020 25%, #a91101 75%, #8b0000 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#ed2939 0%, #e62020 25%, #a91101 75%, #8b0000 100%),
+        linear-gradient(#8b0000 0%, #a91101 25%, #e62020 75%, #ed2939 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-cursor: hand;
+}
+
+.toggle-button:selected {
+    -fx-background-color: 
+        linear-gradient(#64ba21 0%, #85d740 25%, #45990d 75%, #2a7304 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#2a7304 0%, #45990d 25%, #64ba21 75%, #85d740 100%),
+        linear-gradient(#64ba21 0%, #85d740 25%, #45990d 75%, #2a7304 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-cursor: hand;
+}
+
+
+
+.toggle-button:selected:hover {
+    -fx-background-color: 
+        linear-gradient(#64ba21 0%, #85d740 25%, #45990d 75%, #2a7304 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#64ba21 0%, #85d740 25%, #45990d 75%, #2a7304 100%),
+        linear-gradient(#2a7304 0%, #45990d 25%, #64ba21 75%, #85d740 100%);
+    -fx-background-insets: 0,1,4,5;
+    -fx-cursor: hand;
+}
+
+
+
+.toggle-button Text {
+    -fx-effect: dropshadow( one-pass-box , white , 0, 0.0 , 0 , 1 );
+}
+
+
+
+/* ===================== TAP PANE ================================= */
+
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+    -fx-tab-min-width:90px;
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab {
+    -fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+.tab-pane .tab-label:hover {
+    -fx-text-fill: #3c3c3c;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #3c3c3c;
+    -fx-cursor: default;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #d9d9d9;
+}
