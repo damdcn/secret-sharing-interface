@@ -69,3 +69,4 @@ Pour la version vanilla, faire un ``make`` puis ``make exec``.
 * **Solal Goldstein** _alias_ [@Solal-G](https://github.com/Solal-G)
 * **Tiavina Razafintsalama** _alias_ [@TiaviR](https://github.com/TiaviR)
 * **Jérémy Simione** _alias_ [@jerems34](https://github.com/jerems34)
+
